@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blissful Bites</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/logo.png">
+</head>
+<body>
+    <div id="navbar">
+        <div id="nav-section">
+            <div id="left">
+                <img src="assets/logo.png" id="logo">
+                <span id="name">Blissful Bites</span>
+            </div>
+            <div id="right">
+                <img src="assets/notification.png"class="icons nav-text">
+                <span class="nav-text">Home</span>
+                <span class="nav-text">Meal</span>
+                <span class="nav-text">About Us</span>
+                <img src="assets/profile.png" class="icons nav-text">
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <div id="section2">
+        <div id="front">
+            <div id="text">
+                <div id="heading">"Where Every Bite Tells a Delicious Story."</div>
+                <div id="text-below-heading">"Ready to uncover a world of delightful flavors? Join us and embark on a journey of culinary exploration. Are you ready to discover more?"</div>
+                <div id="started-btn" class=" css hover none"> Get Started</div>
+            </div>
+            <div id="images">
+                <div>
+                    <img src="assets/pizza.jpg" id="pizza" class=images-hover>
+                </div> 
+                <div>
+                    <img src="assets/pancake.jpeg" id="pancake" class=images-hover>
+                    <img src="assets/steak.jpg" id="steak" class=images-hover>
+                    <div id="new-started-btn" class="hover display"> Get Started</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="section3">
+        <div id="container2">
+            <div >
+                <div id="image-box">
+                    <div id="random-image"></div>
+                    <div id="random-text"></div>
+                </div>
+            </div>
+            <div id="text-box">
+                <div id="generator-text">"Elevate Your Dining Experience: Try Our  z Meal Generator!"</div>
+                <div id="random-generator-button" class="hover">Generate Random Meal</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="section4">
+        <p id="text-above-search">Cooking Made Easy: Search Now!</p>
+        <div id="flexing-search">
+            <div><input type="text" id="search-input-box" placeholder="Search here......"></div>
+            <div style="padding-left: 1vw;" id="searchBtn"><img src="assets/magnifier.png" id="search-icon" class="icons"></div>
+        </div>
+    </div>
+
+    <div id="section5">
+        <div id="foodGrid"></div>
+    </div>
+
+    <div id="popup-for-random" style="display: none; flex-direction: column; overflow-y: scroll;">
+        <div style="display: flex; justify-content: flex-end;
+        padding: 1vw;">
+            <img src="assets/cross.png" id="cross">
+        </div>
+        <div>
+            <div><h1>Instructions</h1></div>
+            <div id="instructions">
+            </div>
+            <div><h1>Ingredients</h1></div>
+            <div>
+                <ul id="listItem"></ul>
+            </div>
+        </div>    
+    </div>
+
+    <footer>
+    <div id="footer">
+            <div style="padding-left: 1vw;">Made by Abhinandan Gupta</div>
+            <div style="padding-right: 1vw;">Data From The MealDB API</div>
+        </div>
+    </footer>
+
+    
+<script src="index.js" id="targetScript"></script>
+</body>
+</html>
