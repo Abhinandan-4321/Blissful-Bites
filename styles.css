@@ -630,6 +630,9 @@ h1{
     h1{
         font-size: 5vw;
     }
+    #cross{
+        height: 6vw;
+    }
 }
 
 @media (max-width:710px){
@@ -653,6 +656,9 @@ h1{
     }
     h1{
         font-size: 5vw;
+    }
+    #cross{
+        height: 10vw;
     }
 }
 
@@ -683,6 +689,9 @@ h1{
     #listItem {
         flex-wrap: wrap;
         padding-right: 33px;
+    }
+    #cross{
+        height: 12vw;
     }
 }
 
