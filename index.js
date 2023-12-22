@@ -124,7 +124,7 @@ searchInput.addEventListener("keydown", (event) => {
     }
 });
 
-
+//Started button
 let btn = document.getElementById("started-btn");
 let newBtn = document.getElementById("new-started-btn");
 
@@ -138,7 +138,7 @@ newBtn.addEventListener("click", () => {
         scroll();
     }, 100);
 });
-
+// Scroll Function
 function scroll() {
     const targetElement = document.documentElement || document.body;
     searchBtn.scrollIntoView({ behavior: "smooth" });
